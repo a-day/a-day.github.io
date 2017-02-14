@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://fineday.cc/"/>
-  <updated>2017-02-14T08:43:16.740Z</updated>
+  <updated>2017-02-14T09:29:26.916Z</updated>
   <id>http://fineday.cc/</id>
   
   <author>
@@ -20,16 +20,15 @@
     <link href="http://fineday.cc/2017/02/14/phpexcel%E5%AF%BC%E5%87%BA-%E5%8F%91%E7%8E%B0%E4%B8%8D%E5%8F%AF%E8%AF%BB%E5%8F%96%E7%9A%84%E5%86%85%E5%AE%B9/"/>
     <id>http://fineday.cc/2017/02/14/phpexcel导出-发现不可读取的内容/</id>
     <published>2017-02-14T03:29:37.000Z</published>
-    <updated>2017-02-14T08:43:16.740Z</updated>
+    <updated>2017-02-14T09:29:26.916Z</updated>
     
-    <content type="html"><![CDATA[<p>在用PHPExcel 导出excel文件时候，下载下来的表格。打开时候显示“发现不可读取的内容”，询问是否恢复此工作簿的内容，点击是之后，可以正常显示需要的内容。<br>解决办法：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="variable">$objWriter</span>-&gt;save(<span class="string">'php://output'</span>)</div><div class="line"><span class="built_in">exit</span>;   //重点是需要<span class="built_in">exit</span></div></pre></td></tr></table></figure>
+    <content type="html"><![CDATA[<p>在用PHPExcel 导出excel文件时候，下载下来的表格。打开时候显示“发现不可读取的内容”，询问是否恢复此工作簿的内容，点击是之后，可以正常显示需要的内容。<br>解决办法：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="variable">$objWriter</span>-&gt;save(<span class="string">'php://output'</span>)</div><div class="line"><span class="built_in">exit</span>;</div></pre></td></tr></table></figure></p>
+<p>重点是需要exit，不结束的话，导致代码之后的内容会写入到EXCEL中去</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;在用PHPExcel 导出excel文件时候，下载下来的表格。打开时候显示“发现不可读取的内容”，询问是否恢复此工作簿的内容，点击是之后，可以正常显示需要的内容。&lt;br&gt;解决办法：&lt;/p&gt;
-&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;
+      &lt;p&gt;在用PHPExcel 导出excel文件时候，下载下来的表格。打开时候显示“发现不可读取的内容”，询问是否恢复此工作簿的内容，点击是之后，可以正常显示需要的内容。&lt;br&gt;解决办法：&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;
     
     </summary>
     
