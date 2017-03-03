@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://fineday.cc/"/>
-  <updated>2017-03-03T01:22:03.814Z</updated>
+  <updated>2017-03-03T01:41:47.784Z</updated>
   <id>http://fineday.cc/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://fineday.cc/2017/03/03/%E5%85%B1%E5%8A%A9/"/>
     <id>http://fineday.cc/2017/03/03/共助/</id>
     <published>2017-03-03T01:21:34.000Z</published>
-    <updated>2017-03-03T01:22:03.814Z</updated>
+    <updated>2017-03-03T01:41:47.784Z</updated>
     
     <content type="html"><![CDATA[<p><img src="https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2403798015.jpg" alt="共助"></p>
 <p><table class="table table-bordered table-striped table-condensed"><tr><td>主演</td><td>玄彬 柳海真 金柱赫 张荣男 李东辉</td></tr><tr><td>类型</td><td>动作</td></tr><tr><td>制片国家</td><td>韩国</td></tr><tr><td>上映时间</td><td> 2017-01-18(韩国)</td></tr><tr><td>豆瓣评分</td><td>7.0</td></tr></table></p>
@@ -39,10 +39,6 @@
     
     
       <category term="动作" scheme="http://fineday.cc/tags/%E5%8A%A8%E4%BD%9C/"/>
-    
-      <category term="剧情" scheme="http://fineday.cc/tags/%E5%89%A7%E6%83%85/"/>
-    
-      <category term="悬疑" scheme="http://fineday.cc/tags/%E6%82%AC%E7%96%91/"/>
     
   </entry>
   
