@@ -115,7 +115,10 @@ $(document).ready(function () {
   $('.diversity').on('click', function(e) {
     $('.diversity').removeClass('diversity-check');
     $(this).addClass('diversity-check');
-    $('#mvideo').attr('src', $(this).data('url')).get(0).play();
+    $('#mvideo_html5_api>source').attr('src', $(this).data('url'));
+    var _self = $('#mvideo_html5_api').get(0);
+    _self.load();
+    _self.play();
   });
 
   $('.post-toc a').on('click', function (e) {
