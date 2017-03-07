@@ -112,6 +112,12 @@ $(document).ready(function () {
     item.addClass(activeTabClassName);
   });
 
+  $('.diversity').on('click', function(e) {
+    $('.diversity').removeClass('diversity-check');
+    $(this).addClass('diversity-check');
+    $('#mvideo').attr('src', $(this).data('url')).get(0).play();
+  });
+
   $('.post-toc a').on('click', function (e) {
     e.preventDefault();
     var targetSelector = NexT.utils.escapeSelector(this.getAttribute('href'));
